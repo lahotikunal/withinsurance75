@@ -3,8 +3,8 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 15,
-    premium = 10;
+    bidValue = 30,
+    premium = 20;
 
 function myRadioValue(dice) {
     radioValue = dice;
