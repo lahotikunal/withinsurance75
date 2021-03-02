@@ -153,7 +153,7 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-  {alert("game over!!! not enough credit left if you want to play again refresh(f5)");}
+  {alert("game over!!! not enough credit left, you now have a insurance of worth 75, if you want to play again refresh(f5)");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
