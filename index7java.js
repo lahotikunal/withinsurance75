@@ -4,7 +4,7 @@ var diceValue,
     potValue,
     radioValue = '=7',
     bidValue = 3000000,
-    premium =  2000000;
+    premium = 2000000;
 
 function myRadioValue(dice) {
     radioValue = dice;
@@ -12,8 +12,7 @@ function myRadioValue(dice) {
 }
 
 //slider code
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
+
 /*output.innerHTML = slider.value;
 
 slider.oninput = function() {
@@ -102,6 +101,10 @@ rules.addEventListener('click', function() {
   document.getElementById('rules').style.display = 'none';
 
 });
+next_game.addEventListener('click',function(){
+    if(potValue<0)
+        {location.href = "https://lahotikunal.github.io/insurance_sefi/";}
+});
 //rules
 
 button.addEventListener('click',function()
@@ -153,10 +156,8 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-  {alert("game over!!! not enough credit left, you now have a insurance of worth 75, if you want to play again refresh(f5)");}
+    {alert("game over!!! not enough credit left,you have insurnce of 60 lakhs,please press next game button");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
-
-
 
